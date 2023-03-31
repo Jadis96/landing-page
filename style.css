@@ -1,0 +1,9 @@
+body {
+    min-height: 100vh;
+    font-family: "roboto", sans-serif;
+}
+
+img {
+    max-width: 100%;  
+height: 100px;  
+}
