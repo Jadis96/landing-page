@@ -3,16 +3,22 @@ body {
     font-family: "roboto", sans-serif;
     display: flex;
     flex-direction: column;
+    
 }
 
 img {
     height: 200px;
-    width: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50px;
+    align-self: flex-end;
+    
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    gap: 16px
 }
 a {
     text-decoration: none;
@@ -27,6 +33,129 @@ a {
     font-size: 24px;
     display: flex;
     justify-content: space-between;
-    padding: 10px
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+
+.first-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+    padding: 40px;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+p {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+
+.blue-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 1px solid #3882F6;
+    font-size: 18px;
+    padding: 8px 16px;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+button { 
+    flex-shrink: 0;
+    flex-grow: 0;
 
 }
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container {
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    gap: 50px
+}
+
+.second-section-title {
+font-weight: bold;
+font-size: 40px;
+margin-top: 20px;
+text-align: center;
+}
+
+.card-box {
+    border: 3px solid #3882F6; 
+    border-radius: 12px;
+    height: 100px;
+    width: 100px;
+}
+
+.card-text {
+    font-size: 18px;
+    margin-top: 18px;
+    
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(155, 153, 153);
+    padding: 70px
+}
+
+.quote {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    
+}
+.author {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px
+    
+}
+.call-container {
+    color: white;
+    background-color:  #3882F6;
+    padding: 40px;
+  
+    gap: 20px;
+    border-radius: 10px;
+
+}
+
+
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 1px solid #F9FAF8;
+    font-size: 18px;
+    padding: 8px 16px;
+    text-align: center;
+    margin: 10px;
+}
+
