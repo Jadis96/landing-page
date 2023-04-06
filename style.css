@@ -11,8 +11,7 @@ img {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 50px;
-    align-self: flex-end;
-    
+
 }
 
 ul {
@@ -40,7 +39,6 @@ a {
 }
 
 
-
 .first-section {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -48,10 +46,9 @@ a {
     font-size: 48px;
     padding: 40px;
     display: flex; 
-    flex-direction: column;
-    align-items: flex-start;
-    
+    justify-content: space-around
 }
+
 
 p {
     font-weight: normal;
@@ -78,7 +75,9 @@ button {
     flex-grow: 0;
 
 }
-
+.first-section .img-container {
+    align-self: flex-end;
+}
 .second-section {
     display: flex;
     flex-direction: column;
