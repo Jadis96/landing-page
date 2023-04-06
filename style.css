@@ -39,6 +39,8 @@ a {
     
 }
 
+
+
 .first-section {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -94,6 +96,7 @@ font-weight: bold;
 font-size: 40px;
 margin-top: 20px;
 text-align: center;
+color: #1F2937;
 }
 
 .card-box {
@@ -113,13 +116,13 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-color: rgb(155, 153, 153);
+    background-color: #E5E7EB;
     padding: 70px
 }
 
 .quote {
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
     font-style: italic;
     
 }
@@ -156,8 +159,19 @@ text-align: center;
     padding: 8px 16px;
     text-align: center;
     margin: 10px;
-    max-width: 100px;
-    max-height: 35px;
-   align-self: center
+    max-width: 130px;
+    max-height: 40px;
+   align-self: center;
+   
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 40px
+
 }
 
