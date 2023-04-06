@@ -138,13 +138,12 @@ text-align: center;
 .call-container {
     color: white;
     background-color:  #3882F6;
-    padding: 40px;
-  
-    gap: 20px;
+    padding: 50px;
+   display: flex;
+    gap: 30px;
     border-radius: 10px;
 
 }
-
 
 
 .sign-up-button {
@@ -157,5 +156,8 @@ text-align: center;
     padding: 8px 16px;
     text-align: center;
     margin: 10px;
+    max-width: 100px;
+    max-height: 35px;
+   align-self: center
 }
 
